@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title description">
+  <title id="title">Синие кроссовки Urban</title>
+  <desc id="description">Иллюстрация синего городского кроссовка на светлом фоне.</desc>
+  <rect width="320" height="220" rx="24" fill="#f4f8fc"/>
+  <circle cx="270" cy="46" r="48" fill="#e6f0fb"/>
+  <circle cx="50" cy="175" r="30" fill="#e9f3fc"/>
+  <ellipse cx="162" cy="185" rx="118" ry="12" fill="#dce7f2"/>
+  <path d="M52 136c16 0 29-8 35-20l17-35c4-8 14-11 22-7l28 16c18 10 30 28 47 35l43 17c10 4 20 6 30 6h7c10 0 18 8 18 18v7H48c-7 0-12-6-12-13v-8c0-9 7-16 16-16Z" fill="#2463b9"/>
+  <path d="M111 86c17 6 31 13 42 24l-19 27H74c10-9 16-20 20-32l6-18c2-5 7-7 11-1Z" fill="#4383d3"/>
+  <path d="M192 123c15 9 33 15 52 20 9 2 17 4 25 4 8 0 15 5 18 12H174l18-36Z" fill="#3778cb"/>
+  <path d="m160 112-17 30h-14l23-40m26 18-14 22h-14l20-31" fill="#174c9a"/>
+  <path d="M119 99h40m-49 12h41m-49 12h40" fill="none" stroke="#eef7ff" stroke-linecap="round" stroke-width="5"/>
+  <path d="M40 158c12 7 25 10 39 10h214v11c0 5-4 9-9 9H61c-14 0-25-11-25-25v-1l4-4Z" fill="#ffffff"/>
+  <path d="M53 180h229" fill="none" stroke="#9cb9d8" stroke-linecap="round" stroke-width="4"/>
+  <path d="M53 150c8 2 15 2 22 2" fill="none" stroke="#164a97" stroke-linecap="round" stroke-width="5"/>
+</svg>

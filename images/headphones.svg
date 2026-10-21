@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title description">
+  <title id="title">Зелёные наушники Wave</title>
+  <desc id="description">Иллюстрация зелёных накладных наушников на светлом фоне.</desc>
+  <rect width="320" height="220" rx="24" fill="#f1faf7"/>
+  <circle cx="273" cy="52" r="47" fill="#def3e9"/>
+  <circle cx="49" cy="171" r="29" fill="#e1f6ed"/>
+  <ellipse cx="160" cy="190" rx="86" ry="10" fill="#d9eae3"/>
+  <path d="M77 135V99c0-46 37-83 83-83s83 37 83 83v36h-18V99c0-36-29-65-65-65S95 63 95 99v36H77Z" fill="#188468"/>
+  <path d="M94 104c0-37 29-67 66-67s66 30 66 67" fill="none" stroke="#6cc3a0" stroke-linecap="round" stroke-width="10"/>
+  <path d="M78 110h14c8 0 14 6 14 14v42c0 8-6 14-14 14H78c-14 0-25-11-25-25v-20c0-14 11-25 25-25Z" fill="#168267"/>
+  <path d="M242 110h-14c-8 0-14 6-14 14v42c0 8 6 14 14 14h14c14 0 25-11 25-25v-20c0-14-11-25-25-25Z" fill="#168267"/>
+  <rect x="76" y="116" width="25" height="58" rx="12" fill="#35aa83"/>
+  <rect x="219" y="116" width="25" height="58" rx="12" fill="#35aa83"/>
+  <path d="M84 127v36m152-36v36" fill="none" stroke="#9de2bf" stroke-linecap="round" stroke-width="5"/>
+  <path d="M72 171c0 6 4 10 10 10h10m156-10c0 6-4 10-10 10h-10" fill="none" stroke="#0f6b56" stroke-linecap="round" stroke-width="4"/>
+</svg>

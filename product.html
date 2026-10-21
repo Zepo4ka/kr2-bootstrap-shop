@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Товар — ShopProject Bootstrap</title>
+  <meta name="description" content="Подробности учебного товара, характеристики, цена и переход к заявке.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+  <script src="js/products.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <header class="bg-body-tertiary border-bottom">
+    <nav class="navbar navbar-expand-lg" aria-label="Основная навигация">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">ShopProject</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Открыть меню">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+            <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+            <li class="nav-item"><a class="nav-link" href="category.html">Аксессуары</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="product.html">Товар</a></li>
+            <li class="nav-item"><a class="nav-link" href="order.html">Заявка</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-4 flex-grow-1">
+    <nav aria-label="Хлебные крошки">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+        <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
+        <li class="breadcrumb-item active" aria-current="page" data-product-crumb>Кроссовки Urban</li>
+      </ol>
+    </nav>
+    <article class="row g-4" data-product-page>
+      <div class="col-md-5">
+        <div class="bg-primary-subtle rounded-3 p-4">
+          <img class="product-detail-image" src="images/sneaker.svg" alt="Кроссовки Urban" width="320" height="220" data-product-image>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <h1 data-product-title>Кроссовки Urban</h1>
+        <span class="badge text-bg-secondary mb-3" data-product-category>Обувь</span>
+        <p class="lead" data-product-description>Лёгкая повседневная обувь для прогулок по городу.</p>
+        <p class="fs-4 fw-bold" data-product-price>4 990 ₽</p>
+        <table class="table table-bordered">
+          <caption>Характеристики товара</caption>
+          <thead class="table-light"><tr><th scope="col">Параметр</th><th scope="col">Значение</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Цвет</th><td data-product-color>Синий</td></tr>
+            <tr><th scope="row">Материал</th><td data-product-material>Текстиль и резина</td></tr>
+            <tr><th scope="row">Назначение</th><td data-product-purpose>Прогулки</td></tr>
+          </tbody>
+        </table>
+        <a class="btn btn-primary" href="order.html?product=urban" data-product-order>Оставить заявку</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="bg-body-tertiary border-top py-3 mt-auto">
+    <div class="container"><p class="mb-0">&copy; 2026 ShopProject · КР №2</p></div>
+  </footer>
+</body>
+</html>
