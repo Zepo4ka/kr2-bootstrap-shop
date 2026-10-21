@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Аксессуары — ShopProject Bootstrap</title>
+  <meta name="description" content="Отдельная категория аксессуаров: рюкзак City, бутылка Flow и кепка Base.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+  <script src="js/products.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <header class="bg-body-tertiary border-bottom">
+    <nav class="navbar navbar-expand-lg" aria-label="Основная навигация">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">ShopProject</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Открыть меню">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+            <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="category.html">Аксессуары</a></li>
+            <li class="nav-item"><a class="nav-link" href="product.html">Товар</a></li>
+            <li class="nav-item"><a class="nav-link" href="order.html">Заявка</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-4 flex-grow-1">
+    <nav aria-label="Хлебные крошки">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+        <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Аксессуары</li>
+      </ol>
+    </nav>
+    <h1>Аксессуары</h1>
+    <p>Рюкзаки и вещи для каждого дня</p>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <article class="card h-100">
+          <img class="card-img-top product-image" src="images/backpack.svg" alt="Жёлтый рюкзак City" width="320" height="220">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-secondary align-self-start mb-2">Аксессуары</span>
+            <h2 class="card-title h5">Рюкзак City</h2>
+            <p class="card-text">Компактный рюкзак для повседневных поездок.</p>
+            <p class="fw-bold">3 490 ₽</p>
+            <div class="mt-auto d-flex gap-2">
+              <a class="btn btn-outline-primary" href="product.html?product=city">Подробнее</a>
+              <a class="btn btn-primary" href="order.html?product=city">Заказать</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <article class="card h-100">
+          <img class="card-img-top product-image" src="images/bottle.svg" alt="Многоразовая бутылка Flow" width="320" height="220">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-secondary align-self-start mb-2">Аксессуары</span>
+            <h2 class="card-title h5">Бутылка Flow</h2>
+            <p class="card-text">Многоразовая бутылка для воды в дороге.</p>
+            <p class="fw-bold">1 290 ₽</p>
+            <div class="mt-auto d-flex gap-2">
+              <a class="btn btn-outline-primary" href="product.html?product=flow">Подробнее</a>
+              <a class="btn btn-primary" href="order.html?product=flow">Заказать</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <article class="card h-100">
+          <img class="card-img-top product-image" src="images/cap.svg" alt="Кепка Base для прогулок" width="320" height="220">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-secondary align-self-start mb-2">Аксессуары</span>
+            <h2 class="card-title h5">Кепка Base</h2>
+            <p class="card-text">Лёгкая кепка для прогулок.</p>
+            <p class="fw-bold">1 490 ₽</p>
+            <div class="mt-auto d-flex gap-2">
+              <a class="btn btn-outline-primary" href="product.html?product=base">Подробнее</a>
+              <a class="btn btn-primary" href="order.html?product=base">Заказать</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    <a class="btn btn-outline-secondary mt-4" href="catalog.html">Весь каталог</a>
+  </main>
+
+  <footer class="bg-body-tertiary border-top py-3 mt-auto">
+    <div class="container"><p class="mb-0">&copy; 2026 ShopProject · КР №2</p></div>
+  </footer>
+</body>
+</html>
